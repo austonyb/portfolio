@@ -66,7 +66,10 @@ const addStar = () => {
 
 Array(300).fill().forEach(addStar)
 
+const greyColor = new THREE.Color(808080)
+
 const starFieldTexture = new THREE.TextureLoader().load('/starField.jpeg')
+
 scene.background = starFieldTexture
 
 loader.load( '/austonLowPolyRough.glb', function ( gltf ) {
