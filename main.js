@@ -123,4 +123,8 @@ function gitHubLink() {
   window.location.href = "https://github.com/austonyb"
 }
 
+setTimeout(function () {
+  window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+}, 10000)
+
 gitHubBtn.addEventListener('click', gitHubLink)
